@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task 2</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header container">
+            <div class="logo"><img src="./svg/logo.svg" alt="Logo"></div>
+
+            <div class="burger" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+
+                <div class="burger_menu" id="menu">
+                    <div><a href="#overview">OVERVIEW</a></div>
+                    <div><a href="#features">FEATURES</a></div>
+                    <div><a href="#technology">TECHNOLOGY</a></div>
+                    <div><a href="#contact">CONTACT</a></div>
+                    <div>SIGN UP</div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div><a href="#overview">OVERVIEW</a></div>
+                <div><a href="#features">FEATURES</a></div>
+                <div><a href="#technology">TECHNOLOGY</a></div>
+                <div><a href="#contact">CONTACT</a></div>
+                <div>SIGN UP</div>
+            </div>
+            <button class="btn_sign_in">Login</button>
+        </header>
+
+        <div class="main__intro container">
+            <h1 class="main__intro_title">CloudBudget</h1>
+            <p class="main__intro_text">Cloud budget management for everyone. Only <br/> €69.95 a Month After a 7 Day Trial of<br/>Up to €4.99</p>
+            <button class="btn_sign_up">Sign up</button>
+        </div>
+    </div>
+
+    <div class="section__video container" id="overview">
+        <div>
+            <h2 class="section__video_title">Easy to Use Cloud Budget<br/>Management Software</h2>
+            <p class="section__video_text">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
+            <button class="btn_learn_more">Learn more</button>
+        </div>
+        <div>
+            <img src="./images/video_img.png" alt="Video Section">
+        </div>
+    </div>
+
+    <div class="section__features container" id="features">
+        <h3 class="section__features_title">Features</h3>
+        <div class="section__features_intro">
+            <div>
+                <img src="./images/features_bg_1.png" alt="Currencies">
+                <div class="features__card">
+                    <h3 class="features__card_title">Supports All Currencies and Cards</h3>
+                    <p class="features__card_text">We support all popular currencies and is fully customizable to add</p>
+                    <button class="btn_read_more">Read more</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="./images/features_bg_2.png" alt="Expenses">
+                <div class="features__card">
+                    <h3 class="features__card_title">Manage your expenses on the go</h3>
+                    <p class="features__card_text">You can access your account from anywhere in the world on any device</p>
+                    <button class="btn_read_more">Read more</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="./images/features_bg_3.png" alt="Budget">
+                <div class="features__card">
+                    <h3 class="features__card_title">Cloud Budget Management Software</h3>
+                    <p class="features__card_text">Our software is made so you can access and manage your budget</p>
+                    <button class="btn_read_more">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section__technology container" id="technology">
+        <h3 class="section__features_title">Technology</h3>
+        <div class="section__technology_intro">
+            <div class="section__technology_card">
+                    <div class="technology_card_num">01</div>
+                    <div class="technology_card_wrapper">
+                        <img class="technology_card_img" src="./svg/cloud.svg" alt="Cloud Storage">
+                        <h6 class="technology_card_title">Cloud Storage</h6>
+                        <p class="technology_card_text">Access your account from anywhere<br/>in the world on any device</p>
+                    </div>
+                
+            </div>
+    
+            <div class="section__technology_card">
+                <div class="technology_card_num">02</div>
+                <div class="technology_card_wrapper">
+                    <img class="technology_card_img" src="./svg/secure.svg" alt="Secure">
+                    <h6 class="technology_card_title">Secure</h6>
+                    <p class="technology_card_text">All your information is stored on<br/>secure cloud servers</p>
+                </div>   
+            </div>
+    
+            <div class="section__technology_card">
+                <div class="technology_card_num">03</div>
+                <div class="technology_card_wrapper">
+                    <img class="technology_card_img" src="./svg/pdf_download.svg" alt="PDF Downloade">
+                    <h6 class="technology_card_title">PDF Download</h6>
+                    <p class="technology_card_text">Download any of your reports in<br/> PDF formatice</p>
+                </div>
+                
+            </div>
+    
+            <div class="section__technology_card">
+                <div class="technology_card_num">04</div>
+                <div class="technology_card_wrapper">
+                    <img class="technology_card_img" src="./svg/csv_download.svg" alt="CSV Download">
+                    <h6 class="technology_card_title">CSV Download</h6>
+                    <p class="technology_card_text">All your information is stored <br/>on secure cloud servers</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="section__download">
+        <div class="section__download_intro container">
+            <div class="section__download_intro_wrapper">
+                <h4 class="section__download_intro_title">Stay focused on saving money</h4>
+                <p class="section__download_intro_text">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
+                <div class="section__download_intro_icons">
+                    <img src="./svg/ion-logo-google-playstore.svg" alt="">
+                    <img src="./svg/ion-logo-apple-appstore.svg" alt="">
+                    <img src="./svg/simple-icons_windows.svg" alt="">
+                </div>
+            </div>
+            <img src="./images/donload_img.png" alt="Download">
+        </div>
+    </div>
+
+    <div class="section__contact" id="contact">
+        <div class="section__contact_wrapper container">
+            <div class="section__contact_intro">
+                <h4 class="section__contact_intro_title">Contact</h4>
+                <p class="section__contact_intro_text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+            </div>
+
+            <div class="section__contact_intro_form">
+                <form class="form" action="">
+                    <div class="form_names">
+                        <input required type="text" name="first_name" id="" placeholder="First name">
+                        <input required type="text" name="last_name" id="" placeholder="Last name">
+                    </div>
+                    <input required type="number" name="phone" id="" placeholder="Phone number">
+                    <input required type="text" name="question" id="" placeholder="Your question">
+                    <button class="form_btn">submit now</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__wrapper_intro">
+                <div>
+                    <div class="footer_title">Address</div>
+                    <div>Pipang Ltd, Griva Digeni, <br>
+                        81-83 Jacovides Tower, 1st Floor <br>
+                        1090 Picosia USA
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="footer_title">Services</div>
+                    <ul class="footer_services_list">
+                        <li class="footer_services_list_item">Overview</li>
+                        <li class="footer_services_list_item">Features</li>
+                        <li class="footer_services_list_item">Technology</li>
+                        <li class="footer_services_list_item">Terms & Conditions</li>
+                        <li class="footer_services_list_item">Privecy</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <div class="footer_title">Get in Touch</div>
+                    <div class="footer_email"><a href="mailto: info@cloudbudget.com">info@cloudbudget.com</a></div>
+                    <div class="footer_phone">+1 844-721-7120</div>
+                    <div class="footer_media">
+                        <img src="./svg/feather-facebook.svg" alt="facebook">
+                        <img src="./svg/feather-linkedin.svg" alt="linkedin">
+                        <img src="./svg/Group.svg" alt="twitter">
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="footer_title">We Support</div>
+                    <img src="./images/secure-p-1 1.png" alt="payment">
+                </div>
+            </div>
+            <div>Copyright 2018 CloudBudget</div>
+        </div>
+
+    </footer>
+
+    <script>
+
+        function myFunction(x) {
+        let menu = document.getElementById("menu");
+          x.classList.toggle("change");
+          menu.classList.toggle("show");
+        }
+        </script>
+    
+</body>
+</html>
