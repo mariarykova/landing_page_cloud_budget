@@ -27,11 +27,11 @@
             </div>
 
             <div class="menu">
-                <div><a href="#overview">OVERVIEW</a></div>
-                <div><a href="#features">FEATURES</a></div>
-                <div><a href="#technology">TECHNOLOGY</a></div>
-                <div><a href="#contact">CONTACT</a></div>
-                <div>SIGN UP</div>
+                <div><a class="menu_item" href="#overview">OVERVIEW</a></div>
+                <div><a class="menu_item" href="#features">FEATURES</a></div>
+                <div><a class="menu_item" href="#technology">TECHNOLOGY</a></div>
+                <div><a class="menu_item" href="#contact">CONTACT</a></div>
+                <div class="menu_item">SIGN UP</div>
             </div>
             <button class="btn_sign_in">Login</button>
         </header>
@@ -57,7 +57,7 @@
     <div class="section__features container" id="features">
         <h3 class="section__features_title">Features</h3>
         <div class="section__features_intro">
-            <div>
+            <div class="section__features_intro_element">
                 <img src="./images/features_bg_1.png" alt="Currencies">
                 <div class="features__card">
                     <h3 class="features__card_title">Supports All Currencies and Cards</h3>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="section__features_intro_element">
                 <img src="./images/features_bg_2.png" alt="Expenses">
                 <div class="features__card">
                     <h3 class="features__card_title">Manage your expenses on the go</h3>
@@ -75,7 +75,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="section__features_intro_element">
                 <img src="./images/features_bg_3.png" alt="Budget">
                 <div class="features__card">
                     <h3 class="features__card_title">Cloud Budget Management Software</h3>
@@ -136,9 +136,9 @@
                 <h4 class="section__download_intro_title">Stay focused on saving money</h4>
                 <p class="section__download_intro_text">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
                 <div class="section__download_intro_icons">
-                    <img src="./svg/ion-logo-google-playstore.svg" alt="">
-                    <img src="./svg/ion-logo-apple-appstore.svg" alt="">
-                    <img src="./svg/simple-icons_windows.svg" alt="">
+                    <img class="logo-google-playstore" src="./svg/ion-logo-google-playstore.svg" alt="">
+                    <img class="logo-apple-appstore" src="./svg/ion-logo-apple-appstore.svg" alt="">
+                    <img class="logo-simple-windows" src="./svg/simple-icons_windows.svg" alt="">
                 </div>
             </div>
             <img src="./images/donload_img.png" alt="Download">
@@ -158,7 +158,7 @@
                         <input required type="text" name="first_name" id="" placeholder="First name">
                         <input required type="text" name="last_name" id="" placeholder="Last name">
                     </div>
-                    <input required type="number" name="phone" id="" placeholder="Phone number">
+                    <input required type="tel" name="phone" id="" placeholder="Phone number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12">
                     <input required type="text" name="question" id="" placeholder="Your question">
                     <button class="form_btn">submit now</button>
                 </form>
@@ -192,7 +192,7 @@
                 <div>
                     <div class="footer_title">Get in Touch</div>
                     <div class="footer_email"><a href="mailto: info@cloudbudget.com">info@cloudbudget.com</a></div>
-                    <div class="footer_phone">+1 844-721-7120</div>
+                    <div class="footer_phone"><a href="tel: +1 844-721-7120">+1 844-721-7120</a></div>
                     <div class="footer_media">
                         <img src="./svg/feather-facebook.svg" alt="facebook">
                         <img src="./svg/feather-linkedin.svg" alt="linkedin">
