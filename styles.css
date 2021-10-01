@@ -228,10 +228,11 @@ body {
     align-items: center;
     text-align: start;
     margin: 0 auto;
-    padding: 95px 165px;
+    padding: 95px 0px;
+    width: 70%;
 }
 
-.section__video img, .section__download_intro img {
+.section__video img, .section__download_img {
     max-width: 445px;
     width: 100%;
     height: 100%;
@@ -279,8 +280,6 @@ body {
     background-color: #FAFAFA;
     padding-top: 65px;
     padding-bottom: 124px;
-    padding-left: 165px;
-    padding-right: 165px;
 }
 
 .section__features_intro img {
@@ -305,6 +304,7 @@ body {
     justify-content: space-between;
     text-align: center;
     margin: 0 auto;
+    width: 70%;
 }
 
 .section__features_intro_element {
@@ -362,13 +362,15 @@ body {
 }
 
 .section__technology {
-    padding: 65px 165px 124px 165px;
+    padding: 65px 0px 124px 0px;
 }
 
 .section__technology_intro {
     display: flex;
     gap: 30px;
     text-align: center;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .section__technology_card {
@@ -419,11 +421,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px 165px 50px 100px;
+    padding: 50px 0px 50px 0px;
+    width: 70%;
 }
 
 .section__download_intro_wrapper {
     width: 40%;
+    padding-right: 30px;
 }
 
 .section__download_intro_title {
@@ -446,7 +450,7 @@ body {
 .section__download_intro_icons {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 33%;
     align-items: center;
     cursor: pointer;
 }
@@ -462,7 +466,8 @@ body {
 .section__contact_wrapper {
     display: flex;
     justify-content: space-around;
-    padding: 117px 165px 58px 176px;
+    padding: 117px 0px 58px 0px;
+    width: 70%;
 }
 
 .section__contact_intro {
@@ -560,7 +565,8 @@ input:valid {
 }
 
 .footer__wrapper {
-    padding: 85px 161px;
+    padding: 85px 0px;
+    width: 70%;
 }
 
 .footer__wrapper_intro {
@@ -608,6 +614,12 @@ input:valid {
     width: 50%;
 }
 
+
+
+.footer_media a:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 1025px) {
     .header {
         padding: 55px 100px 0px 100px;
@@ -615,7 +627,7 @@ input:valid {
 
 
     .section__video {
-        padding: 95px 70px;
+        padding: 95px 0px;
     }
 
     .section__features_intro {
@@ -631,19 +643,19 @@ input:valid {
     }
 
     .section__technology {
-        padding: 95px 70px;
+        padding: 95px 00px;
     }
 
     .section__download_intro {
-        padding: 95px 70px;
+        padding: 95px 0px;
     }
 
     .section__contact_wrapper {
-        padding: 95px 70px;
+        padding: 95px 0px;
     }
 
     .footer__wrapper {
-        padding: 95px 70px;
+        padding: 95px 0px;
     }
 
     .section__features {
@@ -684,7 +696,7 @@ input:valid {
     }
 
     .section__download_intro {
-        padding: 80px 25px;
+        padding: 80px 0px;
     }
 
     .section__download_intro_wrapper {
@@ -696,16 +708,33 @@ input:valid {
     }
 
     .section__technology {
-        padding: 70px 30px;
+        padding: 70px 0px;
     }
     
     .section__video {
-        padding: 70px 30px;
+        padding: 70px 0px;
+        width: 95%;
     }
 
     .section__video_title {
         line-height: 30px;
         font-size: 25px;
+    }
+
+    .section__download_intro {
+        width: 95%;
+    }
+
+    .section__technology_intro {
+        width: 90%;
+    }
+
+    .section__contact_wrapper {
+        width: 90%;
+    }
+
+    .footer__wrapper {
+        width: 90%
     }
 }
 
@@ -771,7 +800,7 @@ input:valid {
     }
 
     .section__features {
-        padding: 30px 30px;
+        padding: 30px 0px;
     }
 
     .section__features_intro {
@@ -780,7 +809,7 @@ input:valid {
 
     .section__features_intro_element {
         margin: 0 auto;
-        width: 80%;
+        width: 70%;
     }
 
     .section__features img {
@@ -872,15 +901,19 @@ input:valid {
         padding-top: 100px;
     }
     .section__features {
-        padding: 20px 10px;
+        padding: 20px 0px;
     }
 
     .section__contact_wrapper {
-        padding: 30px 10px;
+        padding: 30px 0px;
     }
 
     .form_names {
         gap: 10px;
+    }
+
+    .section__features_intro_element {
+        width: 100%;
     }
 
 }
