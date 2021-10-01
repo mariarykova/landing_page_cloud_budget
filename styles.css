@@ -15,7 +15,6 @@ body {
 }
 
 .container {
-    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -97,8 +96,6 @@ body {
     justify-content: space-around;
     align-items: center;
     max-width: 445px;
-    width: 100%;
-
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
@@ -141,7 +138,6 @@ body {
 
 .btn_sign_in {
     max-width: 100px;
-    width: 100%;
     padding: 11px 28px 12px 29px;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
@@ -189,8 +185,6 @@ body {
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
-
-    width: 100%;
     max-width: 540px;
     margin: 0 auto;
 
@@ -234,7 +228,6 @@ body {
 
 .section__video img, .section__download_img {
     max-width: 445px;
-    width: 100%;
     height: 100%;
     max-height: 311px;
 }
@@ -258,8 +251,6 @@ body {
     line-height: 140%;
     text-align: justify;
     color: #000000;
-
-    width: 100%;
     max-width: 445px;
 
     padding-bottom: 24px;
@@ -283,7 +274,6 @@ body {
 }
 
 .section__features_intro img {
-    width: 100%;
     max-width: 350px;
     height: 100%;
     max-height: 250px;
@@ -312,7 +302,6 @@ body {
 }
 
 .features__card {
-    width: 100%;
     max-width: 293px;
     background: #FFFFFF;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
@@ -512,12 +501,11 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    padding: 16px 20px 16px 20px;
+    padding: 16px 20px;
     background: #ED4C5C;
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
     max-width: 160px;
-    width: 100%;
     cursor: pointer;
 }
 
@@ -530,7 +518,6 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 24px;
     max-width: 540px;
 }
