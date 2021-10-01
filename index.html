@@ -217,7 +217,20 @@
           x.classList.toggle("change");
           menu.classList.toggle("show");
         }
-        </script>
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            console.log(anchor);
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                console.log('scroll');
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+    </script>
     
 </body>
 </html>
