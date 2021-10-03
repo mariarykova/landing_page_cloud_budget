@@ -14,11 +14,6 @@ body {
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .main {
     background-image: url('./images/main_bg.png');
     background-repeat: no-repeat;
@@ -416,6 +411,7 @@ body {
     justify-content: space-around;
     padding: 50px 0px;
     width: 70%;
+    margin: 0 auto;
 }
 
 .section__download_intro_wrapper {
@@ -461,6 +457,7 @@ body {
     justify-content: space-around;
     padding: 117px 0px 58px 0px;
     width: 70%;
+    margin: 0 auto;
 }
 
 .section__contact_intro {
@@ -558,6 +555,7 @@ input:valid {
 .footer__wrapper {
     padding: 85px 0px;
     width: 70%;
+    margin: 0 auto;
 }
 
 .footer__wrapper_intro {
