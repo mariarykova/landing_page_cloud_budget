@@ -219,7 +219,11 @@ body {
     text-align: start;
     margin: 0 auto;
     padding: 95px 0px;
-    width: 70%;
+    width: 75%;
+}
+
+.image {
+    padding-right: 95px;
 }
 
 .section__video img, .section__download_img {
@@ -408,9 +412,9 @@ body {
 .section__download_intro {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px 0px;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -617,10 +621,15 @@ input:valid {
 
     .section__video {
         padding: 95px 0px;
+        width: 80%;
     }
 
     .section__features_intro {
         width: 95%;
+    }
+
+    .section__video_title {
+        font-size: 32px;
     }
 
     .section__features_intro img {
@@ -637,6 +646,7 @@ input:valid {
 
     .section__download_intro {
         padding: 95px 0px;
+        width: 80%;
     }
 
     .section__contact_wrapper {
@@ -650,6 +660,10 @@ input:valid {
     .section__features {
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .image {
+        padding-right: 45px;
     }
 }
 
@@ -782,10 +796,6 @@ input:valid {
 
     .btn_learn_more {
         padding-bottom: 20px;
-    }
-
-    .section__video img {
-        width: 300px;
     }
 
     .section__features {
