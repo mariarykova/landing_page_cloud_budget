@@ -219,7 +219,7 @@ body {
     text-align: start;
     margin: 0 auto;
     padding: 95px 0px;
-    width: 75%;
+    max-width: 1110px;
 }
 
 .image {
@@ -297,7 +297,7 @@ body {
     justify-content: space-between;
     text-align: center;
     margin: 0 auto;
-    width: 70%;
+    max-width: 1110px;
 }
 
 .section__features_intro_element {
@@ -362,7 +362,7 @@ body {
     gap: 30px;
     text-align: center;
     margin: 0 auto;
-    width: 70%;
+    max-width: 1110px;
 }
 
 .section__technology_card {
@@ -414,7 +414,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0px;
-    width: 75%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -460,7 +460,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 117px 0px 58px 0px;
-    width: 70%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -487,7 +487,6 @@ body {
 
 .section__contact_intro_form {
     width: 50%;
-    margin: 0 auto;
 }
 
 .form_names {
@@ -558,7 +557,7 @@ input:valid {
 
 .footer__wrapper {
     padding: 85px 0px;
-    width: 70%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -655,6 +654,7 @@ input:valid {
 
     .footer__wrapper {
         padding: 95px 0px;
+        max-width: 800px;
     }
 
     .section__features {
@@ -858,6 +858,7 @@ input:valid {
 
     .section__download_intro_icons {
         padding-bottom: 20px;
+        width: 50%;
     }
 
     .section__contact_wrapper {
@@ -886,6 +887,11 @@ input:valid {
     .footer_media {
         width: 25%;
     }
+
+    input {
+        padding-left: 10px;
+    }
+    
 }
 
 @media (max-width: 325px) {
